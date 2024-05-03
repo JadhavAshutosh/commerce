@@ -1,0 +1,106 @@
+/* Style for the signup section */
+.signup {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  /* Style for the form container */
+  .container {
+    display: flex; /* Flex display to align form and image side by side */
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* Style for the signup form content */
+  .signup-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the form */
+  .signup-form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 900px;
+  }
+  
+  /* Style for form title */
+  .form-title {
+    margin-left: 17px;
+    margin-bottom: 21px;    
+    color: #333;
+  }
+
+  .form-button .form-submit{
+    margin-left: 14px;
+  }
+  
+  /* Style for form inputs */
+  .form-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+  }
+  .register-form{
+    width: 50%;
+  }
+  
+  .form-group input {
+    width: calc(100% - 40px); /* Adjusted width to accommodate icon */
+    border: none;
+    border-bottom: 1px solid; /* Initial border-bottom transparent */
+    outline: none;
+    margin-left: 45px;
+  }
+  
+  .form-group input:hover {
+    border-bottom: 1px solid #333; /* Border-bottom visible on hover */
+  }
+  
+  /* Style for form button */
+  .form-submit {
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-submit:hover {
+    background-color: #555;
+  }
+  
+  /* Style for signup image */
+  .signup-image {
+    text-align: center;
+  }
+  
+  .signup-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .signup-image-link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .signup-image-link:hover {
+    color: #555;
+  }
+  
